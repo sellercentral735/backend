@@ -1,0 +1,37 @@
+{
+  "name": "ecommerce-back-end",
+  "version": "1.0.0",
+  "description": "this is backend of sell shopee",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.server.js"
+  },
+  "keywords": [
+    "b2b",
+    "ecommerce",
+    "mobile",
+    "accessories",
+    "backend",
+    "api",
+    "api"
+  ],
+  "author": "Fauzan Shaikh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.6",
+    "multer": "^1.4.2",
+    "node": "^15.3.0",
+    "shortid": "^2.2.16",
+    "slugify": "^1.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
